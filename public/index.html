@@ -1,49 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
+<head>
 
-        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-        <meta http-equiv="content-type" content="text/html; charset=UTF-8;charset=utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
-        <meta name="HandheldFriendly" content="true">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8;charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+    <meta name="HandheldFriendly" content="true">
 
-        <link rel="canonical" href="https://clh.sh/">
+    <link rel="canonical" href="https://clh.sh/">
 
-
-
-        <link rel="preload" href="/font/ProximaNova-Reg-webfont.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-        <link rel="preload" href="/font/ProximaNova-Sbold-webfont.woff2" as="font" type="font/woff2"
-            crossorigin="anonymous">
-        <link rel="preload" href="/font/ProximaNova-ExtraBold-webfont.woff2" as="font" type="font/woff2"
-            crossorigin="anonymous">
-
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest">
-
-        <meta property="og:url" content="https://clh.sh">
-        <meta property="og:site_name" content="Chloe Halverson">
+    <link rel="stylesheet" href="//brick.freetls.fastly.net/Fira+Sans:300,400,700,300i">
 
 
-        <title>Chloe Halverson</title>
-        <meta property="og:title" content="Chloe Halverson">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <meta property="og:url" content="https://clh.sh">
+    <meta property="og:site_name" content="Chloe Halverson">
 
 
-        <meta property="og:description" content="i make cool stuff :D">
-        <meta name="description" content="i make cool stuff :D">
+    <title>Chloe Halverson</title>
+    <meta property="og:title" content="Chloe Halverson">
 
-        <link rel="stylesheet" href="/assets/style/style.css">
-    </head>
 
-    <body>
-        <header></header>
-        <main>
-            <div id="hero">
-                <img alt="A forest of computer-rendered purple trees" src="/assets/hero.png">
+    <meta property="og:description" content="i make cool stuff :D">
+    <meta name="description" content="i make cool stuff :D">
+
+    
+    <link rel="stylesheet" href="/assets/style/style.css">
+    <link rel="stylesheet" href="/assets/style/hero.css">
+    <link rel="stylesheet" href="/assets/style/work.css">
+</head>
+
+<body>
+    <header></header>
+    <div id="hero">
+        <div id="hero-text">
+            <h1>Chloe Halverson</h1>
+            <p>my stuff? it lives here.</p>
+        </div>
+        <div id="hero-stripes-parent">
+            <div aria-hidden="true" id="hero-stripes">
+                <a></a>
+                <a></a>
+                <a></a>
+                <a></a>
             </div>
-        </main>
-    </body>
+        </div>
+    </div>
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>Hi! I'm Chloe O. Halverson. I'm a developer, designer, coder, editor, educator, and Et Cetera&trade; in my
+                final year of high school.</p>
+            <p>I teach computer science (Scratch/EV3) to kids, as well as working on things of
+                my own (nodeJS/JS-HTML-CSS/Java/Bash/Python) & with teams.</p>
+            <p>Wow, it's really hard to write a paragraph about
+                yourself, isn't it?</p>
+        </section>
+        <section>
+            <h2>My Work</h2>
+            <ul class="work">
+                <li>
+                    <img src="/assets/images/discordpartygames.website.jpg" alt="A screenshot of https://discordpartygames.websites">
+                    <h3>Party Game Summaries</h3>
+                    <p>A website to quickly explain the virtual party games I have.</p>
+                </li>
+                <li>
+                    <img src="/assets/images/python-parser.png" alt="A screenshot of the code for a Python parser">
+                    <h3>Python-Parser</h3>
+                    <p>A Python parser in pure Javascript.</p>
+                </li>
+                <li>
+                    <img src="/assets/images/michael.science.jpg" alt="A screenshot of https://michael.science">
+                    <h3>Michael Science!</h3>
+                    <p>A 1v1 bracket where a user chooses between randomly selected famous "Michael"s from Wikipedia.</p>
+                </li>
+                <li>
+                    <img src="/assets/images/dinnercodingtime.com.jpg" alt="A screenshot of https://dinnercodingtime.com">
+                    <h3>Dinner Coding Time</h3>
+                    <p>A coding help site to help with unusable assignments from Code HS's LMS</p>
+                </li>
+                <li>
+                    <img src="/assets/images/autoauto.png" alt="The Autoauto logo, a capital letter A stylized as an abstract sextant">
+                    <h3>Autoauto</h3>
+                    <p>A domain-specific coding language for my Robotics club's <a href="https://www.firstinspires.org/robotics/ftc">FTC</a> autonomous phase</p>
+                </li>
+                <li>
+                    <img src="/assets/images/controls.png" alt="The Controls logo, a C made up of 3 coloured pie slices around a central circle">
+                    <h3>Controls</h3>
+                    <p>A domain-specific coding language for my Robotics club's <a href="https://www.firstinspires.org/robotics/ftc">FTC</a> tele-op phase</p>
+                </li>
+                
+            </ul>
+        </section>
+    </main>
+</body>
 
 </html>

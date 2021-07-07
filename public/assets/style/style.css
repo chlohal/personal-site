@@ -1,4 +1,18 @@
 body {
     margin: 0;
-    background: #F6F2F8;
+    background: #fffcf9;
+    color: #242331;
+    font-family: 'Fira Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    padding: 1em;
+    font-size: 1.25rem;
+}
+main p {
+    line-height: 1.6;
 }

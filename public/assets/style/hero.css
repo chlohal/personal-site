@@ -1,0 +1,81 @@
+#hero {
+    height: min-content;
+    position: relative;
+    overflow: hidden;
+    background: #F7F2F7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    box-shadow: 0 -2rem 3rem -2rem #0009 inset;
+}
+#hero-text {
+    text-align: center;
+    padding: 3em;
+}
+#hero-text p {
+    font-size: 1.5em;
+    margin: 0;
+}
+#hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+#hero > div {
+    flex-grow: 1;
+    flex-basis: 100vmin;
+}
+
+#hero-stripes-parent {
+    width: 100vmin;
+    height: 100vmin;
+    display: flex;
+}
+
+#hero-stripes {
+    width: 100vmin;
+    height: 100vmin;
+    display: flex;
+}
+
+#hero-stripes a {
+    position: relative;
+
+    display: flex;
+
+    font-size: 2em;
+
+    align-items: center;
+
+    height: 100vmin;
+    flex-basis: 0;
+    flex-grow: 1;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+
+    box-shadow: 0 -2rem 3rem -2rem #0009 inset;
+}
+
+#hero-stripes a:hover {
+    filter: brightness(1.1);
+    box-shadow: 0 0 1rem 0 #0009, 0 -3rem 3rem -3rem #0009 inset;
+}
+
+#hero-stripes a:nth-child(1) {
+    background-color: #efa8b8;
+}
+
+#hero-stripes a:nth-child(2) {
+    background-color: #cd4c66;
+}
+
+#hero-stripes a:nth-child(3) {
+    background-color: #5cc8ff;
+}
+#hero-stripes a:nth-child(4) {
+    background-color: #242331;
+}

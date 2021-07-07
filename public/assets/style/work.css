@@ -1,0 +1,39 @@
+ul.work {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+ul.work li {
+    margin: 1em;
+    width: 20em;
+    flex-shrink: 1;
+    background: #fffefd;
+    border-radius: 1em;
+    padding: 1em;
+    box-shadow: 0 0 1rem 0 #0002;
+}
+
+ul.work li h3 {
+    margin: 0;
+    margin-bottom: 0.25em;
+}
+
+ul.work li p {
+    margin: 0;
+}
+
+ul.work li img {
+    width: 100%;
+    aspect-ratio: 1.333;
+    border-radius: 0.25em;
+    object-fit: cover;
+}
+
+@supports not (aspect-ratio: 1.333) {
+    ul.work li img {
+        height: 12em;
+    }
+}
