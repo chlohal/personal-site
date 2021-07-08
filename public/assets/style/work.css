@@ -12,8 +12,15 @@ ul.work li {
     flex-shrink: 1;
     background: #fffefd;
     border-radius: 1em;
-    padding: 1em;
+    padding: 0;
     box-shadow: 0 0 1rem 0 #0002;
+}
+
+ul.work li > a {
+    display: block;
+    padding: 1em;
+    color: inherit;
+    text-decoration: none;
 }
 
 ul.work li h3 {
