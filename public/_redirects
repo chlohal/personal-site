@@ -1,1 +1,2 @@
 /files/* http://files.clh.sh/files/:splat
+/files_cors/* http://files.clh.sh/files_cors/:splat
