@@ -15,4 +15,11 @@ main {
 }
 main p {
     line-height: 1.6;
+    max-width: 100%;
+    width: 100ch;
+    margin: 1em auto;
+}
+
+h2 {
+    text-align: center;
 }
